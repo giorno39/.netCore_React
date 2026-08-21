@@ -84,3 +84,7 @@ yarn-error.log*
 # Secrets
 appsettings.*.local.json
 secrets.json
+
+*.swp
+API/appsettings.json
+API/reactivities.db
