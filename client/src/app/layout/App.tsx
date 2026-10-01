@@ -29,10 +29,6 @@ const handleFormClose = () => {
   setEditMode(false)
 }
 
-const handleDelete = (id: string) => {
-  console.log(id)
-}
-
   return (
     <Box sx={{bgcolor: "#eeeeee", minHeight: '100vh'}}>
       <CssBaseline/>
@@ -49,7 +45,6 @@ const handleDelete = (id: string) => {
         editMode={editMode}
         openForm={handleOpenForm}
         closeForm={handleFormClose}
-        deleteActivity={handleDelete}
         />
         )}
 
